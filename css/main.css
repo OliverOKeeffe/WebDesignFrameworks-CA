@@ -11855,3 +11855,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.my_bg {
+  height: 500px;
+  background: red;
+}
+
+.bottom_space {
+  margin-bottom: auto;
+}
