@@ -11979,4 +11979,16 @@ textarea.form-control-lg {
 .my_bg {
   height: 500px;
   background: red;
+}
+
+.bottom_space {
+  margin-bottom: auto;
+}
+
+.p1 {
+  font-size: 27px;
+}
+
+.p2 {
+  font-size: large;
 }/*# sourceMappingURL=main.css.map */
