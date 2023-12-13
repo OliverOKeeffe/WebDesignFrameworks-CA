@@ -48,3 +48,19 @@ $outline-success: rgb(73, 131, 238);
 .card-colour{
     background-color: #D9D9D9;
 }
+
+.card-image-logo-overlay{
+    width: 120;
+    height: 80;
+}
+
+.custom-image-container {
+    height: 300px; // Set your desired height here
+}
+
+.custom-image-container img {
+    width: 100%; // Ensure the image takes the full width of its container
+    height: 100%; // Ensure the image takes the full height of its container
+    object-fit: cover; // Maintain aspect ratio and cover the container
+}
+

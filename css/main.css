@@ -11897,3 +11897,8 @@ textarea.form-control-lg {
 .card-colour {
   background-color: #D9D9D9;
 }
+
+.card-image-logo-overlay {
+  width: 120;
+  height: 80;
+}
