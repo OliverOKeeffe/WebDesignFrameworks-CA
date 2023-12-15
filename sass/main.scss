@@ -73,4 +73,42 @@ $outline-success: rgb(73, 131, 238);
     padding-top: 6rem; 
   }
 
-  
+
+
+  body {
+    background-color: #f8f9fa;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    border-radius: 4px;
+  }
+
+  .btn-login {
+    background-color: #007bff;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
