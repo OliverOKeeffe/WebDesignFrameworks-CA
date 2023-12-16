@@ -2,8 +2,12 @@ $primary: rgb(153, 185, 165);
 $outline-success: rgb(73, 131, 238);
 
 
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+.card{
+  width: 30px;
+}
 
 .my_bg{
     height:500px;
@@ -104,3 +108,4 @@ $outline-success: rgb(73, 131, 238);
   font-size: 1em;
   text-decoration: underline; 
 }
+

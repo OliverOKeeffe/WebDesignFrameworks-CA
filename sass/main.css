@@ -11976,6 +11976,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.card {
+  width: 30px;
+}
+
 .my_bg {
   height: 500px;
   background: red;
