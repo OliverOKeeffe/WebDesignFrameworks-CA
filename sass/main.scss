@@ -91,34 +91,16 @@ $outline-success: rgb(73, 131, 238);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  .form-group {
-    margin-bottom: 20px;
-  }
-
-  .form-group label {
-    font-weight: bold;
-  }
-
-  .form-control {
-    border-radius: 4px;
-  }
-
-  .btn-login {
-    background-color: #007bff;
-    color: #fff;
-    width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-  }
-
-  .btn-login:hover {
-    background-color: #0056b3;
-  }
-
-  .navbar-nav .nav-link .active {
-    color: white !important;
-}
-
 .card-img-top {
   object-fit: cover;
+}
+
+.custom-header-text{
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.custom-header-text h1 {
+  font-size: 1em;
+  text-decoration: underline; 
 }
