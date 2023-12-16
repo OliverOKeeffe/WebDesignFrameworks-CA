@@ -12021,8 +12021,8 @@ textarea.form-control-lg {
 }
 
 .card-image-logo-overlay {
-  width: 120;
-  height: 80;
+  width: 120px;
+  height: 80px;
 }
 
 .custom-image-container {
@@ -12080,4 +12080,8 @@ body {
 
 .btn-login:hover {
   background-color: #0056b3;
+}
+
+.navbar-nav .nav-link .active {
+  color: white !important;
 }/*# sourceMappingURL=main.css.map */
