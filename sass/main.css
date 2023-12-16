@@ -12084,4 +12084,9 @@ body {
 
 .navbar-nav .nav-link .active {
   color: white !important;
+}
+
+.card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

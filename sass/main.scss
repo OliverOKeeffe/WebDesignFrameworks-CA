@@ -118,3 +118,7 @@ $outline-success: rgb(73, 131, 238);
   .navbar-nav .nav-link .active {
     color: white !important;
 }
+
+.card-img-top {
+  object-fit: cover;
+}
