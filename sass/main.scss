@@ -114,5 +114,9 @@ body {
 }
 
 h1, h2, p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Jost', sans-serif;
+}
+
+:root {
+  --bs-body-font-family: 'Jost', sans-serif;
 }
