@@ -109,3 +109,11 @@ $outline-success: rgb(73, 131, 238);
   text-decoration: underline; 
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, p {
+  font-family: 'Roboto', sans-serif;
+  /* You can specify the same font for different elements */
+}
