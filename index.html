@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenville Deli Redesign</title>
-    <link rel="stylesheet" href="fonts/Jost-Italic-VariableFont_wght.ttf">
-
     <link rel="stylesheet" href="css/main.css" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <!-- Nav bar -->
@@ -16,7 +14,9 @@
             </a>
           </div>
         <div class="container-fluid">
-            <img src="WebsiteImages/logo.png" alt="greenville Deli" width="95" height="55" href="index.html" >
+           <a href="index.html">
+             <img src="WebsiteImages/logo.png" alt="greenville Deli" width="95" height="55">
+            </a>
             <div class="card-img-text">
               <h1>Greenville Deli</h1>
             </div>
@@ -53,7 +53,7 @@
 
     <header>
       <div class="card mb-5">
-        <img class="card-img" src="WebsiteImages/MainHeader.jpg" alt="Card image" height="900">
+        <img class="card-img" src="WebsiteImages/MainHeader.jpg" alt="Card image" style="width: 100%; height: auto;">
         <div class="card-img-overlay d-flex align-items-center justify-content-center mt-5">
           <img src="WebsiteImages/logo2.png" alt="Logo" class="img-fluid" width="1500" height="800">
         </div>
@@ -63,24 +63,19 @@
   <div class="card mb-12 card-btm-margin mt-5" style="max-width: fit-content;">
     <div class="row">
         <div class="col-md">
-            <img src="WebsiteImages/our-menu.jpg" class="card-img" alt="Menu card image" style="max-width: fit-content;">
+            <img src="WebsiteImages/our-menu.jpg" class="card-img" alt="Menu card image">
         </div>
-        <div class="col-md-6 card-colour">
-            <div class="card-body text-center">
-                <h1 class="card-title">Menu</h1>
-                <p class="card-text">Please enjoy and look at our wonderful menu filled with delicious deli goods, including sandwiches, pastries, salads, and much more.</p>
-            </div>
-            <div class="text-center">
-                <button type="button" class="btn bg-primary text-bg-secondary shadow rounded mt-3">
-                    <p class="p1">View Our Menu</p>
-                    <a href="/menu.html" class="text-light"></a> <!-- You had an incorrect use of <link> here -->
-                </button>
-            </div>
+        <div class="col-md-6 card-colour d-flex align-items-center justify-content-center">
+          <div class="card-body text-center">
+            <h1 class="card-title">Menu</h1>
+            <p class="card-text">Please enjoy and look at our wonderful menu filled with delicious deli goods, including sandwiches, pastries, salads, and much more.</p>
+            <button type="button" class="btn bg-primary text-bg-secondary shadow rounded mt-3">
+              <p class="p1">View Our Menu</p>
+            </button>
+          </div>
         </div>
     </div>
 </div>
-
-  
 
   <div id="carouselExample" class="carousel slide">
     <div id="carouselExample" class="carousel slide">
@@ -106,24 +101,27 @@
     </div>
     
 
-
 <div class="card mb-12 card-btm-margin mt-5" style="max-width: fit-content;">
   <div class="row">
-      <div class="col-md-6 card-colour d-flex flex-column align-items-center justify-content-center">
-          <div class="card-body text-center">
-              <h1 class="card-title">Click and Collect</h1>
-              <p class="card-text">You can now make an order and collect at either of our stores, so you waste no time in-store.</p>
-              <button type="button" class="btn bg-primary text-bg-secondary shadow rounded mt-3">
-                  <p class="p1">Click & Collect</p>
-              </button>
-          </div>
+    <div class="col-md-6 card-colour d-flex align-items-center justify-content-center">
+      <div class="card-body text-center">
+        <h1 class="card-title">Click and Collect</h1>
+        <p class="card-text">You can now make an order and collect at either of our stores, so you waste no time in-store.</p>
+        <button type="button" class="btn bg-primary text-bg-secondary shadow rounded mt-3">
+          <p class="p1">Click & Collect</p>
+        </button>
       </div>
+    </div>
 
-      <div class="col-md position-relative">
-          <img src="WebsiteImages/click-collect.jpg" class="card-img" alt="Menu card image" style="max-width: fit-content;">
-      </div>
+    <div class="col-md position-relative">
+      <img src="WebsiteImages/click-collect.jpg" class="card-img" alt="Menu card image" style="width: 100%; max-width: 100%;">
+    </div>
   </div>
 </div>
+
+
+
+
 
     
 </body>
